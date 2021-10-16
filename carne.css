@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid peru;
+    
+}
+
+.nav-item-link{
+    text-decoration: none;
+    color: peru;
+
+
+}
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background-color: linen;
+}
+
+.tarjetas img{
+    width: 100%;
+    height: 60%;
+}
+.tarjetas{
+    margin: 30px 20px  30px 30px;
+    background-color: rgb(197, 197, 131);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.397);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: peru;
+}
+h2{
+
+    font-size: 30px;
+    color: peru;
+}
+p{
+    line-height: 15px;
+    color: rgba(126, 68, 10, 0.733);
+}
+.inicio{
+
+    background-color: purple;
+}
