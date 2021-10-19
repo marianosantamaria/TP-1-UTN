@@ -79,6 +79,7 @@ h2{
 
     font-size: 30px;
     color:var(--gold);
+    text-align: center;
 }
 p{
     line-height: 15px;
@@ -97,3 +98,9 @@ p{
 
 
 
+.fuego{
+
+    background-image: url("imagenes-carne/fuegoxl.jpg");
+    height: 400px;
+    
+}
