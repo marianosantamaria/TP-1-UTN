@@ -2,6 +2,8 @@
 --gold: goldenrod;
 --black:#343434;
 --blue: rgba(26, 23, 59, 0.925 );
+--gris:#7a7a7a;
+
 }
 
 *{
@@ -13,7 +15,7 @@
 }
 
 .cabecera {
-    background-color: var(--black);
+    background-image: url(imagenes-carne/fondo-textura.jpg);
 
 }
 
@@ -26,9 +28,9 @@
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: 100%;
-    background-color: var(--black);
+    background-image: url(imagenes-carne/fondo-textura.jpg);
 
     
 }
@@ -44,6 +46,7 @@
     background-color: rgba(0, 0, 0, 0.904);
     transition: all 1s ease-out;
     border-radius: 8px;
+    
 
 }
 
@@ -60,7 +63,7 @@ color:goldenrod;
 #carne{
     display: flex;
     justify-content: center;
-    background-color:var(--black);
+    background-image: url(imagenes-carne/fondo-textura.jpg);
 }
 
 .tarjetas img{
@@ -160,7 +163,7 @@ CONTACTO
 footer{
     width: 100%;
     padding: 50px 0;
-    background-color: var(--black);
+    background-image: url(imagenes-carne/footer.jpg);
     background-size: cover;
     
 
@@ -189,6 +192,9 @@ footer{
 .box__footer.logo img{
 
     width: 180px;
+
+    
+    
 }
 .box__footer .terminos{
 
